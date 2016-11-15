@@ -2,7 +2,9 @@
   "name": "njstest",
   "version": "",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "test": "gulp test"
+  },
   "keywords": [],
   "repository": {
     "type": "git",
