@@ -1,0 +1,22 @@
+{
+  "name": "njstest",
+  "version": "",
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "supertest": "^2.0.1"
+  }
+}
