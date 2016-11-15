@@ -14,5 +14,8 @@ describe('First test file', function () {
   it('sh3', function () {
       expect(12).to.eql(12);
   });
+  it('sh4', function () {
+      expect(13).to.eql(13);
+  });
 
 });
