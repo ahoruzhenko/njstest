@@ -6,3 +6,4 @@
 var gulp = require('gulp');
 
 gulp.task('test', require('./tasks/run-test.js'));
+gulp.task('test-jenkins', require('./tasks/run-test-jenkins.js'));

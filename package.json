@@ -3,7 +3,8 @@
   "version": "",
   "description": "",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "test-jenkins": "gulp test-jenkins"
   },
   "keywords": [],
   "repository": {
@@ -15,7 +16,8 @@
   "dependencies": {
     "express": "^4.14.0",
     "gulp": "^3.9.1",
-    "gulp-mocha": "^3.0.1"
+    "gulp-mocha": "^3.0.1",
+    "mocha-jenkins-reporter": "^0.3.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
