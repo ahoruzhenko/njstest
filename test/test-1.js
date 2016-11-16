@@ -17,5 +17,20 @@ describe('First test file', function () {
   it('sh4', function () {
       expect(13).to.eql(13);
   });
+  it('sh5', function () {
+      expect(13).to.eql(11);
+  });
+  it('sh6', function () {
+      expect(13).to.eql(13);
+  });
+  it('sh7', function () {
+      expect(13).to.eql(13);
+  });
+  it('sh8', function () {
+      expect(13).to.eql(13);
+  });
+  it('sh9', function () {
+      expect(3).to.eql(13);
+  });
 
 });
