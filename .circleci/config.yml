@@ -14,4 +14,11 @@ jobs:
 workflows:
   build:
     jobs:
-      - hello-world
+      - hello-world:
+          name: hw1
+      - hello-world:
+          name: hw2
+          filters:
+            branches:
+              only:
+                - master
