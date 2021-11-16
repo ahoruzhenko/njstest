@@ -22,3 +22,9 @@ workflows:
             branches:
               only:
                 - master
+      - hello-world:
+          name: hw-dev
+          filters:
+            branches:
+              only:
+                - dev
