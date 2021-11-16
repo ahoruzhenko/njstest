@@ -1,0 +1,17 @@
+version: 2.1
+
+jobs:
+  hello-world:
+    docker:
+      - image: circleci/node:15.14.0
+    steps:
+      - checkout
+      - run:
+          name: Test
+          command: |
+            echo "Hello world!"
+
+workflows:
+  build:
+    jobs:
+      - hello-world
